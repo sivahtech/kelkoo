@@ -6,11 +6,11 @@ function getAmazonProductsbybrand($search,$page)
   //  die();
     $accessKey=get_option('amazon_access_key');
     if($accessKey==''){
-        
+        $accessKey = 'AKIAJWVDKEU7EZCA4UEQ';
     }
     $secretKey=get_option('amazon_secret_key');
     if($secretKey==''){
-       
+        $secretKey = '3bt9bheDK64txy83huZB5ZJP2w9DOBJFdp9dLALW';
     }
     $regionName=get_option('amazon_region_name');
     if($regionName==''){
@@ -26,7 +26,7 @@ function getAmazonProductsbybrand($search,$page)
     $reserachdata=[
         
         "Resources" => [
-            "BrowseNodeInfo.BrowseNodes",
+            "BrowseNodeInfo.BrowseNodes",`
          //   "BrowseNodeInfo.BrowseNodes.Ancestor",
          //   "BrowseNodeInfo.BrowseNodes.SalesRank",
          //   "BrowseNodeInfo.WebsiteSalesRank",
@@ -157,11 +157,11 @@ function getAmazonProductsbycategory($search,$page,$brand)
 
     $accessKey=get_option('amazon_access_key');
     if($accessKey==''){
-        
+        $accessKey = 'AKIAJWVDKEU7EZCA4UEQ';
     }
     $secretKey=get_option('amazon_secret_key');
     if($secretKey==''){
-       
+        $secretKey = '3bt9bheDK64txy83huZB5ZJP2w9DOBJFdp9dLALW';
     }
     $regionName=get_option('amazon_region_name');
     if($regionName==''){
@@ -312,11 +312,11 @@ function getAmazonProducts($search,$page)
   //  die();
     $accessKey=get_option('amazon_access_key');
     if($accessKey==''){
-        
+        $accessKey = 'AKIAJWVDKEU7EZCA4UEQ';
     }
     $secretKey=get_option('amazon_secret_key');
     if($secretKey==''){
-       
+        $secretKey = '3bt9bheDK64txy83huZB5ZJP2w9DOBJFdp9dLALW';
     }
     $regionName=get_option('amazon_region_name');
     if($regionName==''){
@@ -456,11 +456,11 @@ function getAmazonProduct($ASIN)
 {
     $accessKey=get_option('amazon_access_key');
     if($accessKey==''){
-        
+        $accessKey = 'AKIAJWVDKEU7EZCA4UEQ';
     }
     $secretKey=get_option('amazon_secret_key');
     if($secretKey==''){
-       
+        $secretKey = '3bt9bheDK64txy83huZB5ZJP2w9DOBJFdp9dLALW';
     }
     $regionName=get_option('amazon_region_name');
     if($regionName==''){
