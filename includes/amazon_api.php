@@ -6,15 +6,15 @@ function getAmazonProductsbybrand($search,$page)
   //  die();
     $accessKey=get_option('amazon_access_key');
     if($accessKey==''){
-        // $accessKey = 'AKIAJWVDKEU7EZCA4UEQ';
+        $accessKey = '';
     }
     $secretKey=get_option('amazon_secret_key');
     if($secretKey==''){
-        // $secretKey = '3bt9bheDK64txy83huZB5ZJP2w9DOBJFdp9dLALW';
+        $secretKey = '';
     }
     $regionName=get_option('amazon_region_name');
     if($regionName==''){
-        // $regionName = 'eu-west-1';
+        $regionName = 'eu-west-1';
     }
     
     $serviceName = 'ProductAdvertisingAPI';
@@ -157,11 +157,11 @@ function getAmazonProductsbycategory($search,$page,$brand)
 
     $accessKey=get_option('amazon_access_key');
     if($accessKey==''){
-        $accessKey = 'AKIAJWVDKEU7EZCA4UEQ';
+        $accessKey = '';
     }
     $secretKey=get_option('amazon_secret_key');
     if($secretKey==''){
-        $secretKey = '3bt9bheDK64txy83huZB5ZJP2w9DOBJFdp9dLALW';
+        $secretKey = '';
     }
     $regionName=get_option('amazon_region_name');
     if($regionName==''){
@@ -312,11 +312,11 @@ function getAmazonProducts($search,$page)
   //  die();
     $accessKey=get_option('amazon_access_key');
     if($accessKey==''){
-        $accessKey = 'AKIAJWVDKEU7EZCA4UEQ';
+        $accessKey = '';
     }
     $secretKey=get_option('amazon_secret_key');
     if($secretKey==''){
-        $secretKey = '3bt9bheDK64txy83huZB5ZJP2w9DOBJFdp9dLALW';
+        $secretKey = '';
     }
     $regionName=get_option('amazon_region_name');
     if($regionName==''){
@@ -456,11 +456,11 @@ function getAmazonProduct($ASIN)
 {
     $accessKey=get_option('amazon_access_key');
     if($accessKey==''){
-        $accessKey = 'AKIAJWVDKEU7EZCA4UEQ';
+        $accessKey = '';
     }
     $secretKey=get_option('amazon_secret_key');
     if($secretKey==''){
-        $secretKey = '3bt9bheDK64txy83huZB5ZJP2w9DOBJFdp9dLALW';
+        $secretKey = '';
     }
     $regionName=get_option('amazon_region_name');
     if($regionName==''){
